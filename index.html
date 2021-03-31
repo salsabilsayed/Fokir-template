@@ -59,7 +59,7 @@
 
     </header>
 
-    <div id="about" class="py-5">
+    <section id="about" class="py-5">
         <div class="container">
             <div class="row no-gutters">
                 <div class="col-12 col-md-6 pr-md-2 pr-lg-0 offset-lg-1 col-lg-5">
@@ -67,7 +67,14 @@
                         <div class="void h-100 position-absolute d-none d-lg-block"></div>
                         <div class="image overflow-hidden position-relative">
                             <img src="images/profile.jpg" alt="profile image" class="w-100">
-                            <div class="w-100 h-100 position-absolute bg-div"></div>
+                            <div class="w-100 h-100 position-absolute bg-div d-flex align-items-center justify-content-center">
+                                  
+                                <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="icon"><i class="fab fa-google"></i></a>
+                                <a href="#" class="icon"><i class="fab fa-github"></i></a>
+                                
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -86,17 +93,17 @@
                             <li class="py-2 py-md-1 col-sm-12 col-md-7 text-muted"><span>E-mail:</span> Nadia420@gmail.com</li>
                         </ul>
                         
-                        <button class="btn bg-button mr-2" type="button">Download CV</button>
-                        <button class="btn bg-button" type="button">Hire Me</button>
+                        <button class="btn bg-button mr-2" type="button">Download CV <i class="fas fa-download text-white m-0 ml-2"></i></button>
+                        <button class="btn bg-button" type="button">Hire Me <i class="fas fa-paper-plane text-white m-0 ml-2"></i></button>
                     </div>
                 </div>
 
 
             </div>
         </div>
-    </div>
+    </section>
 
-    <div id="services" class="py-5">
+    <section id="services" class="py-5">
         <div class="container">
             <div class="text-center">
                 <h2>Our Services</h2>
@@ -131,9 +138,9 @@
             </div>
         </div>
 
-    </div>
+    </section>
 
-    <div id="portfolio" class="py-5">
+    <section id="portfolio" class="py-5">
         <div class="container">
             <div class="text-center">
                 <h2>Our Portfolio</h2>
@@ -143,56 +150,145 @@
                     <li class="pb-1 w-50 mx-auto li-border"></li>
                 </ul>
             </div>
-            <ul class="list-unstyled d-flex mx-auto my-5 list">
-                <li class="px-4 px-md-4"><a href="#"></a>ALL</li>
-                <li class="px-4 px-md-4"><a href="#"></a>GRAPHIC</li>
-                <li class="px-4 px-md-4"><a href="#"></a>WEB DESIGN</li>
-                <li class="px-4 px-md-4"><a href="#"></a>BRANDING</li>
-            </ul>
+
+            <ul class="nav nav-pills my-5 d-flex justify-content-center" id="pills-tab" role="tablist">
+
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-all" role="tab" aria-controls="pills-home" aria-selected="true">ALL</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-graphic" role="tab" aria-controls="pills-profile" aria-selected="false">GRAPHIC</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-design" role="tab" aria-controls="pills-contact" aria-selected="false">WEB DESIGN</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-branding" role="tab" aria-controls="pills-contact" aria-selected="false">BRANDING</a>
+                </li>
             
-            <div class="row mx-3 mx-md-0">
-                <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
-                    <div class="position-relative parent">
-                        <img src="images/portfolio/1.jpg" alt="portfolio image 1" class="w-100">
-                        <div class="bg-opacity w-100 h-100 position-absolute"></div>
+            </ul>
+              
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="row mx-3 mx-md-0">
+                        <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
+                            <div class="position-relative parent">
+                                <img src="images/portfolio/1.jpg" alt="portfolio image 1" class="w-100">
+                                <div class="bg-opacity w-100 h-100 position-absolute"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
+                            <div class="position-relative parent">
+                                <img src="images/portfolio/2.jpg" alt="portfolio image 2" class="w-100">
+                                <div class="bg-opacity w-100 h-100 position-absolute"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
+                            <div class="position-relative parent">
+                                <img src="images/portfolio/3.jpg" alt="portfolio image 3" class="w-100">
+                                <div class="bg-opacity w-100 h-100 position-absolute"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
+                            <div class="position-relative parent">
+                                <img src="images/portfolio/4.jpg" alt="portfolio image 4" class="w-100">
+                                <div class="bg-opacity w-100 h-100 position-absolute"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
+                            <div class="position-relative parent">
+                                <img src="images/portfolio/5.jpg" alt="portfolio image 5" class="w-100">
+                                <div class="bg-opacity w-100 h-100 position-absolute"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
+                            <div class="position-relative parent">
+                                <img src="images/portfolio/6.jpg" alt="portfolio image 6" class="w-100">
+                                <div class="bg-opacity w-100 h-100 position-absolute"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
-                    <div class="position-relative parent">
-                        <img src="images/portfolio/2.jpg" alt="portfolio image 2" class="w-100">
-                        <div class="bg-opacity w-100 h-100 position-absolute"></div>
+                <div class="tab-pane fade" id="pills-graphic" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="row mx-3 mx-md-0">
+                        <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
+                            <div class="position-relative parent">
+                                <img src="images/portfolio/2.jpg" alt="portfolio image 2" class="w-100">
+                                <div class="bg-opacity w-100 h-100 position-absolute"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
+                            <div class="position-relative parent">
+                                <img src="images/portfolio/3.jpg" alt="portfolio image 3" class="w-100">
+                                <div class="bg-opacity w-100 h-100 position-absolute"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
+                            <div class="position-relative parent">
+                                <img src="images/portfolio/4.jpg" alt="portfolio image 4" class="w-100">
+                                <div class="bg-opacity w-100 h-100 position-absolute"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
+                            <div class="position-relative parent">
+                                <img src="images/portfolio/5.jpg" alt="portfolio image 5" class="w-100">
+                                <div class="bg-opacity w-100 h-100 position-absolute"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
+                            <div class="position-relative parent">
+                                <img src="images/portfolio/6.jpg" alt="portfolio image 6" class="w-100">
+                                <div class="bg-opacity w-100 h-100 position-absolute"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
-                    <div class="position-relative parent">
-                        <img src="images/portfolio/3.jpg" alt="portfolio image 3" class="w-100">
-                        <div class="bg-opacity w-100 h-100 position-absolute"></div>
+                <div class="tab-pane fade" id="pills-design" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="row mx-3 mx-md-0">
+                        <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
+                            <div class="position-relative parent">
+                                <img src="images/portfolio/1.jpg" alt="portfolio image 1" class="w-100">
+                                <div class="bg-opacity w-100 h-100 position-absolute"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
+                            <div class="position-relative parent">
+                                <img src="images/portfolio/4.jpg" alt="portfolio image 4" class="w-100">
+                                <div class="bg-opacity w-100 h-100 position-absolute"></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
+                            <div class="position-relative parent">
+                                <img src="images/portfolio/5.jpg" alt="portfolio image 5" class="w-100">
+                                <div class="bg-opacity w-100 h-100 position-absolute"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
-                    <div class="position-relative parent">
-                        <img src="images/portfolio/4.jpg" alt="portfolio image 4" class="w-100">
-                        <div class="bg-opacity w-100 h-100 position-absolute"></div>
+                <div class="tab-pane fade" id="pills-branding" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="row mx-3 mx-md-0">
+                        <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
+                            <div class="position-relative parent">
+                                <img src="images/portfolio/2.jpg" alt="portfolio image 1" class="w-100">
+                                <div class="bg-opacity w-100 h-100 position-absolute"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
+                            <div class="position-relative parent">
+                                <img src="images/portfolio/6.jpg" alt="portfolio image 4" class="w-100">
+                                <div class="bg-opacity w-100 h-100 position-absolute"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
-                    <div class="position-relative parent">
-                        <img src="images/portfolio/5.jpg" alt="portfolio image 5" class="w-100">
-                        <div class="bg-opacity w-100 h-100 position-absolute"></div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 m-bottom">
-                    <div class="position-relative parent">
-                        <img src="images/portfolio/6.jpg" alt="portfolio image 6" class="w-100">
-                        <div class="bg-opacity w-100 h-100 position-absolute"></div>
-                    </div>
-                </div>
-            </div>
+              </div>
         
         </div>
-    </div>
+    </section>
 
-    <div class="counter py-5">
+    <section class="counter py-5">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-3 text-center my-3">
@@ -217,9 +313,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div id="testimonial" class="feedback py-5">
+    <section id="testimonial" class="feedback py-5">
         <div class="container">
             <h2 class="text-center">Client's Feedback</h2>
             <ul class="list-unstyled mx-auto mb-5 ul-border">
@@ -274,7 +370,7 @@
             
             </div>
         </div>
-    </div>
+    </section>
 
     <div id="blog" class="py-5">
         <div class="container">
